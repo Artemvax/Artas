@@ -1,0 +1,205 @@
+/* Общие стили */
+body {
+    background-color: #f5f5f5; /* Светло-серый фон */
+    color: #333; /* Основной цвет текста */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Стили для заголовков */
+h1, h2, h3 {
+    color: #222; /* Тёмно-серый */
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #007BFF; /* Синий */
+}
+
+/* Стили для ссылок */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Темно-синий при наведении */
+}
+
+/* Стили для header */
+.header {
+    background-color: #fff; /* Белый фон */
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Герой секция */
+.hero {
+    background-color: #e9ecef; /* Светло-серый фон */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Секция "О нас" */
+.about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about p {
+    color: #666;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+/* Секция "Услуги" */
+.services {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.service-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    color: #222;
+    margin-top: 10px;
+}
+
+.service-item p {
+    color: #555;
+}
+
+/* Секция "Портфолио" */
+.portfolio {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Секция "Отзывы" */
+.reviews {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.review-item {
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+.review-item p {
+    color: #555;
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+.review-item span {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Секция "Контакты" */
+.contacts {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contacts ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contacts ul li {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
